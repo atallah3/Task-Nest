@@ -68,10 +68,10 @@ struct AddItemView: View {
             return
         }
         
-        listViewModel.addItem(title: itemTF)
+       let newItem = listViewModel.addItem(title: itemTF)
 
         NotificationManager.shared.requestAuthurization()
-        NotificationManager.shared.schduleNotification(title: itemTF, date: date)
+        NotificationManager.shared.schduleNotification(id: newItem.id , title: itemTF, date: date)
         
         dismiss()
     }

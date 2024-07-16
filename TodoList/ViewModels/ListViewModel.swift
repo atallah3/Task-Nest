@@ -46,8 +46,10 @@ class ListViewModel : ObservableObject {
         items.move(fromOffsets: from, toOffset: to)
     }
     
-    func addItem(title :String) {
-        items.append(ItemModel(title: title, isCompleted: false))
+    func addItem(title :String) -> ItemModel {
+        let newItem = ItemModel(id : UUID().uuidString, title: title, isCompleted: false)
+        items.append(newItem)
+        return newItem
     }
     
     func updateCompletness(item : ItemModel) {

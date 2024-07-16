@@ -22,7 +22,7 @@ class NotificationManager {
         }
     }
     
-    func schduleNotification(title : String, date : Date) {
+    func schduleNotification(id: String, title : String, date : Date) {
         
         let content = UNMutableNotificationContent()
         content.title = title
@@ -35,7 +35,7 @@ class NotificationManager {
         let trigger : UNNotificationTrigger? = UNCalendarNotificationTrigger(dateMatching: dateComponent, repeats: true)
         
         let req = UNNotificationRequest(
-            identifier: UUID().uuidString,
+            identifier: id,
             content: content,
             trigger: trigger)
         
