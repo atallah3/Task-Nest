@@ -9,6 +9,8 @@ import SwiftUI
 
 struct AddItemView: View {
     
+    //MARK: -  PROPERTIES
+    
     @Environment(\.dismiss) var dismiss
     @EnvironmentObject var listViewModel : ListViewModel
     
@@ -16,8 +18,10 @@ struct AddItemView: View {
     
     @State var showAlert : Bool = false
     @State var alertTitle : String = ""
-    
+
     @State var date : Date = Date()
+    
+    //MARK: - VIEWS
     
     var body: some View {
         ScrollView{
@@ -60,6 +64,7 @@ struct AddItemView: View {
         .alert(alertTitle, isPresented: $showAlert) {}
     }
     
+    //MARK: - FUNCTIONS
     
     func saveItem() {
         if !textIsValid() {

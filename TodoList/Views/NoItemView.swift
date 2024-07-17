@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct NoItemView: View {
+    
+    //MARK: -  PROPERTIES
+    
     @State var animate : Bool = false
     let secondaryAccentColor = Color("SecondaryAccentColor")
+    
+    //MARK: - VIEWS
+    
     var body: some View {
        
             VStack(spacing : 10 ) {
@@ -46,6 +52,7 @@ struct NoItemView: View {
         .onAppear(perform: addAnimation)
     }
     
+    //MARK: - FUNCTIONS
     
     func addAnimation() {
         guard !animate else {return}

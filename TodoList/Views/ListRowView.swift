@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct ListRowView: View  {
+    
+    //MARK: - PROPERTIES
+    
     let item : ItemModel
+    
+    //MARK: - VIEWS
     
     var body: some View {
         HStack{
@@ -22,6 +27,8 @@ struct ListRowView: View  {
         .font(.title2)
         .padding(.vertical,8)
     }
+    
+    //MARK: - FUNCTIONS
 }
 
 #Preview("Not completed title") {

@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ListView: View {
     
+    //MARK: -  PROPERTIES
+    
     @EnvironmentObject var listViewModel : ListViewModel
     @State var showSheet : Bool = false
+    
+    //MARK: - VIEWS
+    
     var body: some View {
         ZStack {
             if listViewModel.items.isEmpty { 
@@ -57,7 +62,8 @@ struct ListView: View {
             AddItemView()
         }
     }
-   
+    
+   //MARK: - FUNCTIONS
     
 }
 

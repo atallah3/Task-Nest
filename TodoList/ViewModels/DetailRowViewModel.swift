@@ -9,6 +9,9 @@ import Foundation
 
 
 class DetailRowViewModel : ObservableObject{
+    
+    //MARK: -  PROPERTIES
+    
     @Published var notesItems : [ItemModel] = [] {
         didSet {
             saveChanges()
@@ -17,9 +20,13 @@ class DetailRowViewModel : ObservableObject{
     
     private let notesItemKey : String = "notesItemsKey"
     
+    //MARK: - INITS
+    
     init() {
         addItem()
     }
+    
+    //MARK: - FUNCTIONS
     
     func addItem() {
         guard

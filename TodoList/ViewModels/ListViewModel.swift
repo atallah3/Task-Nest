@@ -10,6 +10,8 @@ import Foundation
 
 class ListViewModel : ObservableObject {
     
+    //MARK: -  PROPERTIES
+    
     @Published var items : [ItemModel] = [] {
         didSet {
             saveItems()
@@ -20,9 +22,14 @@ class ListViewModel : ObservableObject {
     
     @Published private var selectedItem: ItemModel?
     
+    //MARK: - INITS
+    
     init() {
         getItems()
     }
+    
+    
+    //MARK: - FUNCTIONS
     
     func getItems() {
         guard

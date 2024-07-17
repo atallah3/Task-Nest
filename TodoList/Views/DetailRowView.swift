@@ -25,10 +25,15 @@ import SwiftUI
 
 struct DetailRowView: View {
     
+    //MARK: -  PROPERTIES
+    
     @State var notesText : String = ""
     @ObservedObject var viewModel : DetailRowViewModel = DetailRowViewModel()
     
     let title : String
+    
+    //MARK: - VIEWS
+    
     var body: some View {
         VStack{
                 TextField("Add your NOTES here..", text: $notesText)
@@ -73,6 +78,8 @@ struct DetailRowView: View {
         }
         .navigationTitle(title)
     }
+    
+    //MARK: - FUNCTIONS
     
     private func saveButton() -> some View {
         Button(action: {

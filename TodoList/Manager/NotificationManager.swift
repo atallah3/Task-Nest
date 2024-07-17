@@ -11,7 +11,11 @@ import UserNotifications
 
 class NotificationManager {
     
+    //MARK: -  PROPERTIES
+    
     static let shared = NotificationManager()
+    
+    //MARK: - FUNCTIONS
     
     func requestAuthurization() {
         let option : UNAuthorizationOptions = [.alert,.sound]
