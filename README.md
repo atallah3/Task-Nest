@@ -3,7 +3,7 @@
 ## Overview
 This is a SwiftUI-based To-Do List app that helps you manage your tasks efficiently.
 The app allows you to add tasks and subtasks,
-delete tasks and update it as completed or not completed,
+delete tasks and update them as completed or not completed,
 set reminders with notifications,
 and enjoy smooth animations.
 
@@ -14,18 +14,25 @@ and enjoy smooth animations.
 - **Animations**: Enjoy a visually appealing user interface with smooth animations.
 
 ## Screenshots
-![Screenshot1](Screenshots\1.PNG)
-![Screenshot2](Screenshots/2.PNG)
-![Screenshot3](Screenshots/3.PNG)
-![Screenshot4](Screenshots/4.PNG)
-![Screenshot5](Screenshots/5.PNG)
-![Screenshot6](Screenshots/6.PNG)
-![Screenshot7](Screenshots/7.PNG)
-![Screenshot8](Screenshots/8.PNG)
-![Screenshot9](Screenshots/9.jbg)
-
-
-
+<p align="center">
+  <img src="Screenshots/1.PNG" width="200" />
+  <img src="Screenshots/2.PNG" width="200" />
+</p>
+<p align="center">
+  <img src="Screenshots/3.PNG" width="200" />
+  <img src="Screenshots/4.PNG" width="200" />
+</p>
+<p align="center">
+  <img src="Screenshots/5.PNG" width="200" />
+  <img src="Screenshots/6.PNG" width="200" />
+</p>
+<p align="center">
+  <img src="Screenshots/7.PNG" width="200" />
+  <img src="Screenshots/8.PNG" width="200" />
+</p>
+<p align="center">
+  <img src="Screenshots/9.jpg" width="200" />
+</p>
 
 ## Usage
 1. **Add a Task**: Tap the "Add Task" button to create a new task.
@@ -33,9 +40,5 @@ and enjoy smooth animations.
 3. **Set Notifications**: Choose a specific time for the app to remind you of your task.
 4. **Enjoy Animations**: Experience smooth animations as you interact with the app.
 
-
-
 ## Contact
-For any inquiries, feel free to reach out to [Abedelrahman Atallah](aratallah3@gmail.com).
-
-
+For any inquiries, feel free to reach out to [Abd Elrahman Atallah](mailto:aratallah3@gmail.com).
