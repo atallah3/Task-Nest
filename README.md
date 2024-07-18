@@ -14,35 +14,28 @@ and enjoy smooth animations.
 - **Animations**: Enjoy a visually appealing user interface with smooth animations.
 
 ## Screenshots
-<p align="center" style="padding: 25px;">
-  <img src="Screenshots/1.PNG" width="200" />
-  <br> <!-- line break -->
-  <em>Main screen "NoItems."</em>
+<p align="center">
+  <img src="Screenshots/1.PNG" width="200" style="margin: 40px;" />
+  <img src="Screenshots/2.PNG" width="200" style="margin: 40px;" />
 </p>
-<p align="center" style="padding: 25px;">
-  <img src="Screenshots/2.PNG" width="200" />
-  <br> <!-- line break -->
+<p align="center">
+  <em>Main screen "NoItems."</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <em>Add item screen</em>
 </p>
-<p align="center" style="padding: 25px;">
-  <img src="Screenshots/3.PNG" width="200" />
-  <br> <!-- line break -->
-  <em>Swipe action "Done" </em>
+<p align="center">
+  <img src="Screenshots/3.PNG" width="200" style="margin: 40px;" />
+  <img src="Screenshots/5.PNG" width="200" style="margin: 40px;" />
 </p>
-
-<p align="center" style="padding: 25px;">
-  <img src="Screenshots/5.PNG" width="200" />
-  <br> <!-- line break -->
+<p align="center">
+  <em>Swipe action "Done"</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <em>Edit button functionality</em>
 </p>
-<p align="center" style="padding: 25px;">
-  <img src="Screenshots/6.PNG" width="200" />
-  <br> <!-- line break -->
-  <em>Add subtasks Screen "NoItems."</em>
+<p align="center">
+  <img src="Screenshots/6.PNG" width="200" style="margin: 40px;" />
+  <img src="Screenshots/9.jpg" width="200" style="margin: 40px;" />
 </p>
-<p align="center" style="padding: 25px;">
-  <img src="Screenshots/9.jpg" width="200" />
-  <br> <!-- line break -->
+<p align="center">
+  <em>Add subtasks Screen "NoItems."</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <em>Notification</em>
 </p>
 
@@ -53,4 +46,4 @@ and enjoy smooth animations.
 4. **Enjoy Animations**: Experience smooth animations as you interact with the app.
 
 ## Contact
-For any inquiries, feel free to reach out to [Abd Elrahman Atallah](mailto:aratallah3@gmail.com).
+For any inquiries, feel free to reach out to [Abedelrahman Atallah](aratallah3@gmail.com).
