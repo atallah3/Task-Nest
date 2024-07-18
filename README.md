@@ -46,4 +46,4 @@ and enjoy smooth animations.
 4. **Enjoy Animations**: Experience smooth animations as you interact with the app.
 
 ## Contact
-For any inquiries, feel free to reach out to [Abedelrahman Atallah](aratallah3@gmail.com).
+For any inquiries, feel free to reach out to [Abedelrahman Atallah](mailto:aratallah3@gmail.com).
