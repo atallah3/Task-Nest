@@ -14,16 +14,15 @@ and enjoy smooth animations.
 - **Animations**: Enjoy a visually appealing user interface with smooth animations.
 
 ## Screenshots
-<!-- Add screenshots here -->
-![Screenshot1](Screenshots/1.png)
-![Screenshot1](Screenshots/2.png)
-![Screenshot1](Screenshots/3.png)
-![Screenshot1](Screenshots/4.png)
-![Screenshot1](Screenshots/5.png)
-![Screenshot1](Screenshots/6.png)
-![Screenshot1](Screenshots/7.png)
-![Screenshot1](Screenshots/8.png)
-![Screenshot1](Screenshots/9.jbg)
+![Screenshot1](Screenshots\1.PNG)
+![Screenshot2](Screenshots/2.PNG)
+![Screenshot3](Screenshots/3.PNG)
+![Screenshot4](Screenshots/4.PNG)
+![Screenshot5](Screenshots/5.PNG)
+![Screenshot6](Screenshots/6.PNG)
+![Screenshot7](Screenshots/7.PNG)
+![Screenshot8](Screenshots/8.PNG)
+![Screenshot9](Screenshots/9.jbg)
 
 
 
